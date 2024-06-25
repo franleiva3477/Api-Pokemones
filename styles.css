@@ -1,0 +1,28 @@
+.pokemon {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pokemon img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-image: url('ash.jpg'); /* Ruta de la imagen de Ash */
+  background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-attachment: fixed; /* La imagen de fondo no se desplaza con el contenido */
+  background-position: center; /* Centra la imagen de fondo */
+  color: #fff; /* Cambia el color del texto para asegurarte de que sea legible */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el contenido */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
